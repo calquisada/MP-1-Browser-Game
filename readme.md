@@ -1,4 +1,4 @@
-Soccer Trivia Quiz
+Soccer Trivia Quiz for Milestone Project 1: Browser Game
 Keeping it simple!
 By Christian Alquisada - 2023
 
