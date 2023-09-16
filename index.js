@@ -1,0 +1,91 @@
+const Questions = [{
+    q: "What interntaional country does Lionel Messi play for?",
+    a: [{ text: "Argentina", isCorrect: true},
+    { text: "Brazil", isCorrect: false},
+    { text: "Uruguay", isCorrect: false},
+    { text: "Spain", isCorrect: false}
+    ]
+},
+
+{
+    q: "Which internatinoal team won the 2018 World Cup in Russia?",
+    a: [{ text: "Iran", isCorrect: false, isSelected: false},
+    { text: "Russia", isCorrect: false},
+    {text: "Croatia", isCorrect: false},
+    { text: "France", isCorrect: true}
+    ]
+},
+
+{
+    q: "What team did Lionel Messi originally played for?",
+    a: [{ text: "Real Madrid", isCorrect: false},
+    { text: "FC Barcelona", isCorrect: true},
+    { text: "Paris Saint-Germain", isCorrect: false},
+    { text: "Inter Miami", isCorrect: false},
+    ]
+},
+
+{
+    q: "What team did Cristiano Ronaldo originally played for?",
+    a: [{ text: "Real Madrid", isCorrect: false},
+    { text: "Manchester United", isCorrect: false},
+    { text: "Sporting Lisbon", isCorrect: true},
+    { text: "Al-Nassr Club", isCorrect: false},
+    ]
+},
+
+{
+    q: "What international country does Cristiano Ronaldo plays for?",
+    a: [{ text: "Spain", isCorrect: false},
+    { text: "Portugal", isCorrect: true},
+    { text: "Saudi Arabia", isCorrect: false},
+    { text: "Morocco", isCorrect: false},
+    ]
+},
+
+{
+    q: "Which country won the 2022 Men's World Cup?",
+    a: [{ text: "England", isCorrect: false},
+    { text: "Morocco", isCorrect: false},
+    { text: "France", isCorrect: false},
+    { text: "Argentina", isCorrect: true},
+    ]
+},
+
+{
+    q: "Which country won the 2023 Women's World Cup?",
+    a: [{ text: "Spain", isCorrect: true},
+    { text: "Philippines", isCorrect: false},
+    { text: "France", isCorrect: false},
+    { text: "Brazil", isCorrect: false},
+    ]
+},
+
+{
+    q: "Which organization is the governing body of soccer/football all around the world?",
+    a: [{ text: "UEFA", isCorrect: false},
+    { text: "CONCACAF", isCorrect: false},
+    { text: "FIFA", isCorrect: true},
+    { text: "CONMEBOL", isCorrect: false},
+    ]
+},
+
+{
+    q: "Which two teams compete in the event called, 'El Clasico'?",
+    a: [{ text: "Inter Milan & AC Milan", isCorrect: false},
+    { text: "FC Barcelona & Real Madrid", isCorrect: true},
+    { text: "Manchester City & Manchester United", isCorrect: false},
+    { text: "Los Angeles FC & Los Angeles Galaxy", isCorrect: false},
+    ]
+},
+
+{
+    q: "Which country was soccer invented in?",
+    a: [{ text: "England", isCorrect: true},
+    { text: "Mexico", isCorrect: false},
+    { text: "France", isCorrect: false},
+    { text: "Argentina", isCorrect: true},
+    ]
+},
+
+]
