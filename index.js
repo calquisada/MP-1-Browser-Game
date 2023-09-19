@@ -117,3 +117,22 @@ function loadQuestions() {
     }
 }
 
+loadQuestions();
+
+function loadScore(){
+    const totalScore = document.getElementById("score")
+    totalScore.textContent = `You scored ${score} out of ${Questions.length}!!!`
+}
+
+function nextQuestion() {
+    if (currentQuestions < Questions.length - 1) {
+        currentQuestions++;
+        loadQuestions();
+    } else {
+        document.getElementById("answers2").remove()
+        document.getElementById("questions2").remove()
+        document.getElementById("buttons").remove()
+        loadScore();
+    }
+}
+
