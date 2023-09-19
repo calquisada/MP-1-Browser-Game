@@ -4,10 +4,11 @@ body {
 
 h1 {
     text-align: center;
+    font-size: 100px;
 }
 
 .soccertriviapanel {
-    margin-top: 8%;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,17 +17,18 @@ h1 {
 }
 
 .questions {
-    font-size: 30px;
-    margin-bottom: 20px;
+    font-size: 40px;
+    margin-bottom: 40px;
 }
 
 .answers {
-    font-size: 20px;
+    font-size: 30px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 20px;
+    margin-left: 20px;
     position: fixed;
     top: 40%;
     left: 40%;
@@ -45,6 +47,6 @@ button {
 
 
 #score {
-    font-size: 30px;
+    font-size: 40px;
     color: blue;
 } 

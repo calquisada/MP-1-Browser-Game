@@ -1,5 +1,5 @@
 const Questions = [{
-    q: "What interntaional country does Lionel Messi play for?",
+    q: "What international country does Lionel Messi play for?",
     a: [{ text: "Argentina", isCorrect: true},
     { text: "Brazil", isCorrect: false},
     { text: "Uruguay", isCorrect: false},
@@ -8,7 +8,7 @@ const Questions = [{
 },
 
 {
-    q: "Which internatinoal team won the 2018 World Cup in Russia?",
+    q: "Which international team won the 2018 World Cup in Russia?",
     a: [{ text: "Iran", isCorrect: false, isSelected: false},
     { text: "Russia", isCorrect: false},
     {text: "Croatia", isCorrect: false},
@@ -94,7 +94,7 @@ let currentQuestions = 0
 let score = 0
 
 function loadQuestions() {
-    const question = document.getElementbyId("questions2")
+    const question = document.getElementById("questions2")
     const answer = document.getElementById("answers2")
 
     question.textContent = Questions[currentQuestions].q;
