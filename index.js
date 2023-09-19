@@ -136,3 +136,14 @@ function nextQuestion() {
     }
 }
 
+function checkAnswers() {
+    const selectedAnswers = parseInt(document.querySelector('input[name="answer"]:checked').value);
+
+    if (Questions[currentQuestions].a[selectedAnswers].isCorrect) {
+        score++;
+        console.log("Correct!")
+        nextQuestion();
+    } else {
+        nextQuestion();
+    }
+}
