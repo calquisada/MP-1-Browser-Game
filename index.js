@@ -121,7 +121,7 @@ loadQuestions();
 
 function loadScore(){
     const totalScore = document.getElementById("score")
-    totalScore.textContent = `You scored ${score} out of ${Questions.length}!!!`
+    totalScore.textContent = `You scored ${score} out of ${Questions.length}!`
 }
 
 function nextQuestion() {
