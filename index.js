@@ -89,3 +89,31 @@ const Questions = [{
 },
 
 ]
+
+let currentQuestions = 0
+let score = 0
+
+function loadQuestions() {
+    const questions = document.getElementbyId("questions2")
+    const answers = document.getElementById("answers2")
+
+    questions.textContent = Questions [currentQuestions].q;
+    answers.innerHTML = ""
+
+    for (let i = 0; i < Questions[currentQuestions].a.length; i++) {
+        const choicesdiv = document.createElement("div");
+        const choice = document.createElement("input")
+        const choiceLabel = document.createElement("label");
+
+        choice.type = "radio";
+        choice.name = "answer";
+        choice.value = i;
+
+        choiceLabel.textcContent = Questions [currentQuestions].a[i].text;
+
+        choicesdiv.appendChild(choice);
+        choicesdiv.appendChild(choiceLabel);
+        answers.appendChild(choicesdiv);
+    }
+}
+
