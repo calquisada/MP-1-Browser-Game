@@ -94,11 +94,11 @@ let currentQuestions = 0
 let score = 0
 
 function loadQuestions() {
-    const questions = document.getElementbyId("questions2")
-    const answers = document.getElementById("answers2")
+    const question = document.getElementbyId("questions2")
+    const answer = document.getElementById("answers2")
 
-    questions.textContent = Questions [currentQuestions].q;
-    answers.innerHTML = ""
+    question.textContent = Questions[currentQuestions].q;
+    answer.innerHTML = ""
 
     for (let i = 0; i < Questions[currentQuestions].a.length; i++) {
         const choicesdiv = document.createElement("div");
@@ -109,11 +109,11 @@ function loadQuestions() {
         choice.name = "answer";
         choice.value = i;
 
-        choiceLabel.textcContent = Questions [currentQuestions].a[i].text;
+        choiceLabel.textContent = Questions[currentQuestions].a[i].text;
 
         choicesdiv.appendChild(choice);
         choicesdiv.appendChild(choiceLabel);
-        answers.appendChild(choicesdiv);
+        answer.appendChild(choicesdiv);
     }
 }
 
