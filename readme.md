@@ -3,3 +3,4 @@
 - By Christian Alquisada - 2023
 
 - If there is any questions or concerns, please feel free to message me!
+- Disclaimer: This is not for profit or any means of that kind, this is simply for school and educational purposes!
