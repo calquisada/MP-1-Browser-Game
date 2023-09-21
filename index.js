@@ -1,5 +1,3 @@
-/* Inspiration from Geeks for Geeks */
-
 let Questions = 
 [{
     q: "What international country does Lionel Messi play for?",
