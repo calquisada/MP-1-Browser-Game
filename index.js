@@ -1,4 +1,5 @@
-const Questions = [{
+const Questions = 
+[{
     q: "What international country does Lionel Messi play for?",
     a: [{ text: "Argentina", isCorrect: true},
     { text: "Brazil", isCorrect: false},
@@ -94,16 +95,16 @@ let currentQuestions = 0
 let score = 0
 
 function loadQuestions() {
-    const question = document.getElementById("questions2")
-    const answer = document.getElementById("answers2")
+    let question = document.getElementById("questions2")
+    let answer = document.getElementById("answers2")
 
     question.textContent = Questions[currentQuestions].q;
     answer.innerHTML = ""
 
     for (let i = 0; i < Questions[currentQuestions].a.length; i++) {
-        const choicesdiv = document.createElement("div");
-        const choice = document.createElement("input")
-        const choiceLabel = document.createElement("label");
+        let choicesdiv = document.createElement("div");
+        let choice = document.createElement("input")
+        let choiceLabel = document.createElement("label");
 
         choice.type = "radio";
         choice.name = "answer";
@@ -120,7 +121,7 @@ function loadQuestions() {
 loadQuestions();
 
 function loadScore(){
-    const totalScore = document.getElementById("score")
+    let totalScore = document.getElementById("score")
     totalScore.textContent = `You scored ${score} out of ${Questions.length}!`
 }
 
@@ -137,7 +138,7 @@ function nextQuestion() {
 }
 
 function checkAnswers() {
-    const selectedAnswers = parseInt(document.querySelector('input[name="answer"]:checked').value);
+    let selectedAnswers = parseInt(document.querySelector('input[name="answer"]:checked').value);
 
     if (Questions[currentQuestions].a[selectedAnswers].isCorrect) {
         score++;
