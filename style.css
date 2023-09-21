@@ -1,5 +1,7 @@
 body {
     background-color: gray;
+    background-image: url("./Assets/soccerfield.jpg");
+    background-position-y: center;
 }
 
 h1 {
@@ -30,13 +32,13 @@ h1 {
     margin-bottom: 20px;
     margin-left: 20px;
     position: fixed;
-    top: 40%;
-    left: 40%;
+    top: 375px;
+    left: 775px;
 }
 
 button {
     margin-right: 75px;
-    margin-top: 8%;
+    margin-top: 150px;
     font-size: 20px;
     padding: 10px 20px;
     background-color: black;
@@ -50,3 +52,8 @@ button {
     font-size: 40px;
     color: blue;
 } 
+
+.answer-box {
+    border: 1px solid black;
+    padding: 5px;
+}

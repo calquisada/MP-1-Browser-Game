@@ -1,4 +1,4 @@
-const Questions = 
+let Questions = 
 [{
     q: "What international country does Lionel Messi play for?",
     a: [{ text: "Argentina", isCorrect: true},
@@ -105,7 +105,8 @@ function loadQuestions() {
         let choicesdiv = document.createElement("div");
         let choice = document.createElement("input")
         let choiceLabel = document.createElement("label");
-
+        
+        choicesdiv.classList.add("answer-box")
         choice.type = "radio";
         choice.name = "answer";
         choice.value = i;
