@@ -17,7 +17,10 @@ h1 {
     align-items: center;
     justify-content: center;
     color: black;
-    backdrop-filter: blur(2px);
+    /* backdrop-filter: blur(2px);  This was the original background for the trivia panel. */
+     background-color: #8080808c;
+     /* This background-color comes from the help of Gerard */
+
 }
 
 .questions {
