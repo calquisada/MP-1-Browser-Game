@@ -149,3 +149,27 @@ function checkAnswers() {
         nextQuestion();
     }
 }
+
+//// This was a bonus stuff-request from the instructor so I had to search some things up on how to add this timer! This was not part of my original project. ////
+let myLet = setInterval(function(){ myTimer() }, 1000);
+let secondlimit = 45;
+
+function myTimer() {
+if(secondlimit == 0)
+{
+    myStopFunction();
+}
+
+document.getElementById("timerDisplay").innerHTML = '00:' + zeroPad(secondlimit,2);
+secondlimit = secondlimit  - 1;
+
+}
+
+function myStopFunction() {
+    clearInterval(myLet);
+}
+
+function zeroPad(num, places) {
+  var zero = places - num.toString().length + 1;
+  return Array(+(zero > 0 && zero)).join("0") + num;
+}

@@ -10,5 +10,6 @@ Coding:
 - Use 3 functions to load the questions, load the score, and get to the next question.
 - Fill questions using for Loop and using if and else statements to move on to the next question
 - Classes and IDs were used to access them from HTML and style CSS
+- With the instructor's request, as a bonus code I added a simple timer which wasn't part of my original project but rather use for educational purposes to see how it would look
 
-Instructions: Please read the questions carefully and choose the right answer! There are 10 questions each with multiple choices. Your score (out of 10) will be revealed at the end of the game. Good luck!
+Instructions: Please read the questions carefully and choose the right answer! There are 10 questions each with multiple choices and you have 45 seconds to answer all 10 questions. Your score (out of 10) will be revealed at the end of the game. Good luck!
