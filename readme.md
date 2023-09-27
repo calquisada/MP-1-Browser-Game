@@ -1,6 +1,7 @@
 - Simple Soccer Trivia Quiz for Milestone Project 1: Browser Game
 - This game was inspired from how to Create a Quiz using JavaScript from Geeks for Geeks.
 - The in-game timer was from Stack Overflow as a bonus code (not part of my original project - I do not take credit for this).
+- This school project wouldnt have been possible without the help from Cody Jarrett (Instructor) & Gerard Willingham (TA).
 - If there is any questions or concerns, please feel free to message me!
 - Disclaimer: This is not for profit or any means of that kind, this is simply for school and educational purposes! I am not profiting off this school project!
 - By Christian Alquisada - 2023
