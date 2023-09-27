@@ -1,3 +1,5 @@
+/* This game was inspired by how to Create a Quiz using JavaScript from Geeks for Geeks. This is for educational purposes only and not for profit! */
+
 let Questions = 
 [{
     q: "What international country does Lionel Messi play for?",
@@ -152,7 +154,7 @@ function checkAnswers() {
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//// This was a bonus stuff-request from the instructor so I had to search some things up on how to add this timer! This was not part of my original project. ////
+//// This was a bonus stuff-request from the instructor so I had to search some things up on how to add this timer! This was not part of my original project, this was an experiment! Not my codes but wanted to see how it would look! ////
 let myLet = setInterval(function(){ myTimer() }, 1000);
 let secondlimit = 45;
 
@@ -172,6 +174,6 @@ function myStopFunction() {
 }
 
 function zeroPad(num, places) {
-  var zero = places - num.toString().length + 1;
+  let zero = places - num.toString().length + 1;
   return Array(+(zero > 0 && zero)).join("0") + num;
 }
