@@ -150,6 +150,8 @@ function checkAnswers() {
     }
 }
 
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //// This was a bonus stuff-request from the instructor so I had to search some things up on how to add this timer! This was not part of my original project. ////
 let myLet = setInterval(function(){ myTimer() }, 1000);
 let secondlimit = 45;
